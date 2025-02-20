@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+
+/* Think of this as the VIP lounge experience - sleek, modern, inviting */
+.login_container {
+    font-family: 'Bebas Neue', sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('https://wallpaperaccess.com/full/9194613.jpg'); /* Elegant backdrop */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_form_container {
+    width: 900px;
+    height: 500px;
+    display: flex;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(255, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/* Check-in desk - welcoming and professional */
+.left {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(224, 12, 12, 0.4);
+    padding: 20px;
+    border-radius: 12px 0 0 12px;
+}
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* VIP Entrance - Bold & Welcoming */
+.heading {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 56px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Ensure no weird hr appears above heading */
+
+
+/* Smooth, modern input fields */
+.input {
+    width: 350px;
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin: 8px 0;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+.input:focus {
+    border-color: #ec0c0c;
+    box-shadow: 0 0 8px rgba(223, 77, 10, 0.3);
+    outline: none;
+}
+
+/* VIP Error Message */
+.error_msg {
+    width: 350px;
+    padding: 12px;
+    background-color: #d32f2f;
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+    margin: 8px 0;
+}
+
+/* VIP Welcome Area */
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(225deg, #c71010 40%, #252423 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 0 12px 12px 0;
+}
+
+.right_heading {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+/* Premium Pass Buttons */
+.white_btn,
+.green_btn {
+    border: none;
+    padding: 14px 0;
+    width: 180px;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.green_btn {
+    background: #1b1919;
+    color: white;
+    margin-top: 10px;
+}
+
+.green_btn:hover {
+    background: #f31c1c;
+    transform: scale(1.05);
+}
+
+.white_btn {
+    background: rgb(255, 0, 0);
+    color: #ffffff;
+}
+
+.white_btn:hover {
+    background: #9908c5;
+    transform: scale(1.05);
+}
